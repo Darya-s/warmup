@@ -1,0 +1,76 @@
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+}
+a{
+  color:white;
+  text-decoration: none;
+  
+}
+a:hover{
+  color:violet;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+
+ 
+}
+
+.element{
+ 
+ height: 200px;
+ display: inline-flex;
+align-items: center;
+
+}
+
+.element >div{
+
+margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display:block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+
+  min-width: 160px;
+ color:white;
+
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display:inline-block;
+}
